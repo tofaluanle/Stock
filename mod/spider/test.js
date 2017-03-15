@@ -2,6 +2,7 @@
  * Created by songjj on 2017/3/7.
  */
 
+
 var CodeInfoBean = require('../../lib/database/CodeInfoBean.js');
 var codeInfo = new CodeInfoBean('symbol', 'test3');
 codeInfo.trade = 1.2;
@@ -19,7 +20,7 @@ codeInfo.code = '123456';
 codeInfo.ticktime = '15:33:111';
 // console.log(meta);
 var codeInfoDao = require('../../lib/database/CodeInfoDao.js');
-codeInfoDao.save(codeInfo);
+// codeInfoDao.save(codeInfo);
 
 // var MetaBean = require('../../lib/database/MetaBean.js');
 // var meta = new MetaBean('page2', 3);
