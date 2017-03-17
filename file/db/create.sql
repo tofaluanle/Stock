@@ -12,10 +12,11 @@ CREATE TABLE s_code_info
     high FLOAT,
     low FLOAT,
     volume INT(32),
-    amount INT(32),
+    amount BIGINT(64),
     code CHAR(8),
     ticktime TIME
 );
+
 CREATE TABLE s_meta
 (
     `option` VARCHAR(16) PRIMARY KEY NOT NULL,

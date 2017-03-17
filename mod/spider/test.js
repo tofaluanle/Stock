@@ -5,9 +5,13 @@
  */
 
 
-console.log(['123', 4].join());
+console.log(Math.ceil(1.1));
+console.log(Math.ceil(1.0));
+console.log(Math.ceil(1.5));
+console.log(Math.ceil(1.6));
 
-m(1);
+
+// m(1);
 // setTimeout(m(1));
 // setTimeout(function () {
 //     m(1)
